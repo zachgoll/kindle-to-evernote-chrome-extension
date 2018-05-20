@@ -1,0 +1,24 @@
+{
+  "name": "Kindle Highlights to Evernote",
+  "version": "0.1.3",
+  "description": "Copy your kindle notes and paste them formatted in Evernote",
+  "short_name": "Paste formatted Kindle Highlights into Evernote",
+  "permissions": ["activeTab", "storage"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "A simple Kindle Highlight to Evernote utility",
+    "default_icon": {
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png",
+      "128": "images/get_started128.png"
+    }
+  },
+  "icons": {
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started128.png"
+  },
+  "manifest_version": 2
+}
